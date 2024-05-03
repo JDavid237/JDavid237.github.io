@@ -75,6 +75,14 @@ nav li:hover{
     
   }
 
+  .pag2{
+    box-shadow: 0 0 10px rgb(80, 202, 56);
+    border-radius: 20px;
+    padding: 10px 12px;
+    margin: 12px;
+    
+  }
+
 
 h2{
     font-size: larger;
@@ -103,6 +111,10 @@ footer {
 .info{
     display: flex;
     width: 100%;
+    border-radius: 20px;
+    background-color: rgba(107, 189, 128, 0.1) ;
+    padding-top: 10px;
+    box-shadow: 0 0 10px greenyellow;
 }
 
 .info1, .info1 img{
@@ -128,30 +140,40 @@ footer {
 }
 
 .perfil1{
-    border: 2px solid white;
     border-radius: 20px;
     padding:10px 20px;   
-    margin: 10px 12px 150px;
+    margin: 12px 12px 110px;
     background-color: rgb(40, 206, 206,0.1);
+    box-shadow: 0 0 10px rgb(255, 241, 47);
     
 }
 
+.habilidad li{
+    padding: 8px 0;
+}
+
 .educacion {
-    border: 2px solid white;
     border-radius: 20px;
     padding: 5px 20px;   
-    margin: 10px 5px 10px;
+    margin: 12px 5px 10px;
     background-color: rgb(40, 206, 206,0.1);
+    box-shadow: 0 0 10px rgb(47, 206, 255);
    
 }
 
 .ref{
-    border: 2px solid white;
+   margin-top: 7px;
     border-radius: 20px;
     padding: 5px 20px;   
     margin: 0 5px 10px;
     background-color: rgb(40, 206, 206,0.1);
+    box-shadow: 0 0 10px rgb(14, 230, 32);
     
+}
+
+.año {
+    color:rgb(25, 241, 223);
+    text-decoration: none;
 }
 
 

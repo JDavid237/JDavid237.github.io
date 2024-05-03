@@ -9,6 +9,7 @@ body{
     color: white;
 }
 
+/* Header General */
 header{
     font-size: large;
     border: 2px solid white;
@@ -18,6 +19,8 @@ header{
     text-shadow: 0 0 10px green, 0 0 12px greenyellow;
     animation: titleneon 2s infinite;
 }
+
+/* Nav General */
 nav{
     margin: 10px;
     width: 100%;
@@ -105,6 +108,7 @@ footer {
     
   }
 
+/* Resumen */
 .main{
     width: 75%;
     margin: 15px auto;
@@ -183,6 +187,18 @@ footer {
     text-decoration: none;
 }
 
+/* Perfil */
+.miperfil{
+    display: flex;
+    line-height: 30px;
+}
+
+.pag21{
+    flex: 2 1 auto;
+}
+.skill{
+    margin: 0 0 0 -30px;
+}
 @keyframes neonyellow{
     0%{
         box-shadow: 0 0 10px rgb(255, 241, 47),  0 0 12px rgb(255, 241, 47)

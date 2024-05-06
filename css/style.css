@@ -9,6 +9,10 @@ body{
     color: white;
 }
 
+h4{
+    font-size: 14.5px;
+}
+
 /* Header General */
 header{
     font-size: large;
@@ -205,7 +209,7 @@ footer {
     height: min-content;
 }
 .yo h4{
-    font-size: 18px;
+    font-size: 14.5px;
 }
 .pag21{
     flex: 2 1;
@@ -225,7 +229,7 @@ footer {
     height: min-content;
 }
 .idioma h4{
-    font-size: 18px;
+    font-size: 14.5px;
 }
 
 
@@ -233,10 +237,11 @@ footer {
     margin: 8px 4px 0 -30px;
     border-radius: 10px;
     border:4px dashed rgb(23, 216, 103);
+    padding: 0 3.3px;
     }
 
 .skill h4{
-    font-size: 17.3px;
+    font-size: 14px;
     line-height: 24px;
 }
 
@@ -244,13 +249,160 @@ footer {
 
 .descri{
     text-align: center;
-    border: 2px solid;
-    margin: 12px
+    animation: neongreen 1.85s infinite;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px auto;
+    width: 68%;
+
 }
 
 .tabla{
-    border: 2px solid;
+    border: 2.5px solid rgba(29, 199, 190, 0.685);
+    box-shadow:0 0 25px rgba(24, 173, 111, 0.575);
+    border-radius: 5px;
+    width: 70%;
+    margin: 10px auto
 }
+
+.tabla thead{
+    background: rgba(24, 173, 111, 0.575);
+    font-size: medium;
+}
+
+.tabla tr:nth-child(even){
+    background: rgb(24, 173, 111, 0.4)
+}
+
+.tabla tr:nth-child(odd){
+    background: rgba(35, 138, 185, 0.2);
+}
+
+.tabla th{
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid rgba(29, 199, 190, 0.5)
+}
+
+.tabla td{
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid rgba(29, 199, 190, 0.5)
+}
+
+.prox{
+    text-align: center;
+    background:rgba(24, 168, 173, 0.288) ;
+}
+
+/* Contacto */
+
+.formu{
+    width: 55%;
+    margin: 20px auto;
+    text-align: center;
+    animation: neongreen 1.85s infinite;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-left: 2px solid;
+    padding: 8px 10px;
+    margin: 10px auto;
+}
+
+.mid{
+    display: flex;
+}
+
+.organized1{
+    flex: 1;
+    margin: 5px 0;
+    
+}
+
+.mid1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.organized2{
+    flex:1 1 100%;
+    margin: 5px 0;
+    
+}
+
+.mid input{
+    padding: 5px 10px 5px 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid;
+    color: white;
+    width: 85%;
+    text-align: left;
+    animation: neonblue 2s infinite;
+    
+    
+}
+
+.form1 input::placeholder{
+    color:rgba(78, 197, 177, 0.747);
+}
+
+.form1 input:focus::placeholder {
+    color: transparent;
+  }
+
+.mid1 input{
+    padding: 5px 10px 5px 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid;
+    color: white;
+    width: 92%;
+    text-align: left;
+    animation: neonblue 2s infinite;
+}
+
+
+.opciones{
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 7px;
+    width: max-content;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 3.6px 6px;
+    margin: 7px 0;
+    animation: neonyellow 2s infinite;
+}
+
+
+option{
+    appearance: none;
+    background: rgba(6, 70, 66, 0.897);
+
+}
+
+option:hover{
+    background: green;
+}
+
+button{
+    margin: 10px 1px;
+    background: rgba(78, 197, 177, 0.747);
+    width: max-content;
+    padding: 8px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 @keyframes neonyellow{
     0%{
         box-shadow: 0 0 10px rgb(255, 241, 47),  0 0 12px rgb(255, 241, 47)

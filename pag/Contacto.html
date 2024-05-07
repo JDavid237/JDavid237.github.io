@@ -21,39 +21,59 @@
         </ul>
       </nav>
       <main class="main">
-        <div>
+        <div class="formu">
           <h2>
             FORMULARIO DE CONTACTO
           </h2>
-          <h3>Este es un formulario para que puedan contactar conmigo, respondere lo antes posible mediante su correo electronico</h3>
+          <h4>Este es un formulario para que puedan contactar conmigo, respondere lo antes posible mediante su correo electronico</h4>
         </div>
-        <form action="" name="formulario" method="get">
+        <form action="" name="formulario" method="get"class="form">
+          
+          <div class="form1 mid">
+          
+            <div class="organized1">
           <label for="nombre">Nombres</label>
-          <input type="text" name="nombre" id="nombre" placeholder="Nombre personal"><br><br>
+          <input type="text" name="nombre" id="nombre" placeholder="Nombre personal">
+        </div>
 
+      <div class="organized1">
           <label for="apellido">Apellidos</label>
-          <input type="text" name="apellido" id="apellido" placeholder="Apellido personal"><br><br>
+          <input type="text" name="apellido" id="apellido" placeholder="Apellido personal">
+          </div>
 
+        </div>
+
+         <div class="form1 mid1">
+        <div class="organized2">
           <label for="tel">Telefono</label>
-          <input type="tel" name="tel" id="tel" placeholder="Numero de telefono"><br><br>
+          <input type="tel" name="tel" id="tel" placeholder="Numero de telefono">
+        </div>
 
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email" placeholder="Correo electronico"><br><br>
+          <div class="organized2">
+          <label for="email">Correo</label>
+          <input type="email" name="email" id="email" placeholder="Correo electronico">
+        </div>
 
+          <div class="organized2">
           <label for="direccion">Direccion</label>
-          <input type="text" name="direccion" id="direccion" placeholder="Direccion Empresa"><br><br>
-
-          <select name="opciones" id="option">
+          <input type="text" name="direccion" id="direccion" placeholder="Direccion Empresa">
+        </div>
+      </div>
+        
+          <select name="opciones" id="option" class="opciones">
             <option value="0">Pais</option>
             <option value="1">Colombia</option>
             <option value="2">Estados unidos</option>
             <option value="3">Canada</option>
             <option value="4">Reino Unido</option>
           </select>
-          <br><br>
+         
+         <label for="check"><input type="checkbox" id="check"> Aceptar terminos y condiciones</label>
+        <div class="boton">
         <button type="submit">Enviar</button>
         <button type="reset">Reestablecer</button>
         <button onclick="inicio(); return false;">Inicio</button>
+      </div>
         </form>
       </main>
 

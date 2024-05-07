@@ -9,6 +9,10 @@ body{
     color: white;
 }
 
+h4{
+    font-size: 14.5px;
+}
+
 /* Header General */
 header{
     font-size: large;
@@ -192,64 +196,14 @@ footer {
     display: flex;
     line-height: 30px;
 }
-.miperfil h3{
-    color: rgb(25, 241, 223);
-}
-.yo{
-    flex: 1 1;
-    border-radius: 20px;
-    padding: 12px;
-    margin: 4% 10px 10px 10px;
-    box-shadow: 0 0 10px rgb(47, 206, 255);
-    animation: neonblue 1.85s infinite;
-    height: min-content;
-}
-.yo h4{
-    font-size: 18px;
-}
+
 .pag21{
-    flex: 2 1;
-    box-shadow: 0 0 10px rgb(80, 202, 56);
-    border-radius: 20px;
-    padding: 8px;
-    margin: 10px;
-    animation: neongreen 1.85s infinite;
-    text-align: center;
-}
-.idioma{
-    flex: 1 1;
-    border-radius: 20px;
-    padding: 12px 12px 12px 10px;
-    margin: 6% 10px 10px 10px;
-    animation: neonyellow 1.85s infinite;
-    height: min-content;
-}
-.idioma h4{
-    font-size: 18px;
+    flex: 2 1 auto;
 }
 
 
 .skill{
-    margin: 8px 4px 0 -30px;
-    border-radius: 10px;
-    border:4px dashed rgb(23, 216, 103);
-    }
-
-.skill h4{
-    font-size: 17.3px;
-    line-height: 24px;
-}
-
-/* Educacion */
-
-.descri{
-    text-align: center;
-    border: 2px solid;
-    margin: 12px
-}
-
-.tabla{
-    border: 2px solid;
+    margin: 0 0 0 -30px;
 }
 @keyframes neonyellow{
     0%{
